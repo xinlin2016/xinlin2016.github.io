@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*排版用的標籤 RESET margin與padding*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+body,
+ul,
+div,
+header,
+footer,
+article,
+section,
+nav,
+.container,
+.container-fluid,
+.thumbnail {
+    margin: 0;
+    padding: 0;
+}

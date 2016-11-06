@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css?family=Monda|Niconne|Russo+One');
+
+/*
+font-family: 'Russo One', sans-serif;粗體
+font-family: 'Monda', sans-serif;內容
+font-family: 'Niconne', cursive;
+*/
+
+
+/*
+@media screen and (max-width:768px) {
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+}
+*/
+
+
+/*
+@media screen and (min-width:769px) and (max-width:991px) {
+
+}
+*/
+
+header {
+    /*    background-color: dimgray;*/
+    background-image: url(http://unsplash.it/1000?image=668);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+header h1 {
+    font-family: "Russo One";
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: 30%;
+}
+
+header h4 {
+    font-family: "Niconne";
+    text-align: center;
+    font-size: 33px;
+    position: relative;
+    top: 30%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+ul>li {
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+ul .btn {
+    font-family: "Russo One";
+    font-size: 18px;
+    width: 150px;
+    height: 35px;
+    border: 1px solid;
+    position: relative;
+    left: 80px;
+    top: 17px;
+}
+
+.nav a {
+    font-family: "Russo One";
+    text-decoration: none;
+    color: white;
+}
+
+.nav img {
+    width: 150px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+
+h3,
+h4,
+p,
+h2 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 50px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.HOW MOBIRISE WORKS {
+    background-color: darkgray;
+    padding-bottom: 80px;
+}
+
+.col-md-6>p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 19px;
+}
+
+.col-md-6>h2 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left
+}
+
+#row1 {
+    background-color: #efefef;
+    padding: 100px;
+}
+
+#row1 h2 {
+    color: black;
+    position: relative;
+    left: 100px;
+}
+
+#row1 p {
+    font-family: "Monda";
+    color: darkgray;
+    position: relative;
+    left: 100px;
+    width: 90%;
+}
+
+#row1-btn {
+    position: relative;
+    left: 100px;
+}
+
+.author img {
+    border-radius: 500px;
+    width: 40px;
+}
+
+.author {
+    text-align: center;
+    padding: 30px;
+}
+
+#row-header-btn {
+    padding: 30px;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    font-family: "Monda";
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+#row-header-btn a {
+    background-color: #c0a375;
+}
+
+#row-header-btn .btn {
+    border: 1px solid;
+    padding: 10px;
+}
+
+.row-what .thumbnail {
+    background-color: #efefef;
+    padding: 80px;
+}
+
+.row-what .thumbnail h3 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.row-what {
+    background-color: #efefef;
+}
+
+.row-howmobirise-4 .thumbnail {
+    background-color: #c1c1c1;
+    padding: 10px;
+}
+
+.row-howmobirise-4 h1 {
+    font-family: "Russo One";
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    padding: 50px;
+}
+
+.row-howmobirise-4 {
+    background-color: #c1c1c1;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+#PLEASE h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+#PLEASE {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container {
+    width: 100%;
+}
+
+#BEAUTIFUL-row2 {
+    background-image: url(http://unsplash.it/1000?image=816);
+    background-size: cover;
+    height: 60vh;
+    top: 50vh;
+    padding: 70px;
+}
+
+#BEAUTIFUL-row2 h2 {
+    text-align: right;
+    padding-right: 60px;
+}
+
+#BEAUTIFUL-row2 p {
+    text-align: right;
+    padding-right: 60px;
+}
+
+#BEAUTIFUL-row2-btn {
+    position: relative;
+    bottom: 60px;
+    left: 230px;
+}
+
+.row-BOOSTYOUR-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.row-BOOSTYOUR-4 h4 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.IMAGE1 {
+    padding: 15px;
+}
+
+.IMAGE1 h4 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.IMAGE1 p {
+    font-family: "Monda";
+    line-height: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.IMAGE2 {
+    padding: 15px;
+}
+
+.IMAGE2 h4 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.IMAGE2 p {
+    font-family: "Monda";
+    line-height: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
