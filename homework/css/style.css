@@ -28,8 +28,37 @@ font-family: 'Niconne', cursive;
 }
 */
 
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+h3,
+h4,
+p,
+h2 {
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 50px;
+}
+
+.container {
+    width: 100%;
+}
+
+
+/*
+大型看板開始(含導覽列)
+*/
+
 header {
-    /*    background-color: dimgray;*/
     background-image: url(http://unsplash.it/1000?image=668);
     background-size: cover;
     height: 100vh;
@@ -50,11 +79,6 @@ header h4 {
     font-size: 33px;
     position: relative;
     top: 30%;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 10px;
 }
 
 ul>li {
@@ -90,39 +114,80 @@ ul .btn {
     top: 20px;
 }
 
-h3,
-h4,
-p,
-h2 {
+#row-header-btn {
+    padding: 30px;
+    position: relative;
+    top: 30%;
     text-align: center;
+    font-family: "Monda";
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    font-size: 20px;
 }
 
-section {
-    margin-bottom: 30px;
+#row-header-btn a {
+    background-color: #c0a375;
+}
+
+#row-header-btn .btn {
+    border: 1px solid;
+    padding: 10px;
+}
+
+
+/*
+大型看板結束(含導覽列)
+*/
+
+
+/*第二部分3小格插畫開始*/
+
+.row-what .thumbnail {
+    background-color: #efefef;
+    padding: 80px;
+}
+
+.row-what .thumbnail h3 {
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.row-what {
+    background-color: #efefef;
+}
+
+
+/*第二部分3小格插畫結束*/
+
+
+/*第三部分 HOW MOBIRISE WORKS  4小格開始*/
+
+.row-howmobirise-4 .thumbnail {
+    background-color: #c1c1c1;
+    padding: 10px;
+}
+
+.row-howmobirise-4 h1 {
+    font-family: "Russo One";
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
     padding: 50px;
 }
 
-span {
-    font-weight: bold;
+.row-howmobirise-4 {
+    background-color: #c1c1c1;
+    padding-top: 40px;
+    padding-bottom: 90px;
 }
 
-.HOW MOBIRISE WORKS {
-    background-color: darkgray;
-    padding-bottom: 80px;
-}
 
-.col-md-6>p {
-    padding-bottom: 20px;
-    padding-top: 20px;
-    text-align: left;
-    font-size: 19px;
-}
+/*第三部分 HOW MOBIRISE WORKS  4小格結束*/
 
-.col-md-6>h2 {
-    font-weight: bold;
-    font-size: 50px;
-    text-align: left
-}
+
+/*<!--第四部分 崁入影片 DROP-DEAD EASY... 開始-->*/
 
 #row1 {
     background-color: #efefef;
@@ -148,6 +213,25 @@ span {
     left: 100px;
 }
 
+.col-md-6>p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: left;
+    font-size: 19px;
+}
+
+.col-md-6>h2 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left
+}
+
+
+/*<!--第四部分 崁入影片 DROP-DEAD EASY... 結束-->*/
+
+
+/*第五部分 PLEASE SHARE IT! 開始*/
+
 .author img {
     border-radius: 500px;
     width: 40px;
@@ -156,61 +240,6 @@ span {
 .author {
     text-align: center;
     padding: 30px;
-}
-
-#row-header-btn {
-    padding: 30px;
-    position: relative;
-    top: 30%;
-    text-align: center;
-    font-family: "Monda";
-    word-spacing: 10px;
-    letter-spacing: 4px;
-    font-size: 20px;
-}
-
-#row-header-btn a {
-    background-color: #c0a375;
-}
-
-#row-header-btn .btn {
-    border: 1px solid;
-    padding: 10px;
-}
-
-.row-what .thumbnail {
-    background-color: #efefef;
-    padding: 80px;
-}
-
-.row-what .thumbnail h3 {
-    font-weight: bold;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.row-what {
-    background-color: #efefef;
-}
-
-.row-howmobirise-4 .thumbnail {
-    background-color: #c1c1c1;
-    padding: 10px;
-}
-
-.row-howmobirise-4 h1 {
-    font-family: "Russo One";
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    position: relative;
-    padding: 50px;
-}
-
-.row-howmobirise-4 {
-    background-color: #c1c1c1;
-    padding-top: 40px;
-    padding-bottom: 90px;
 }
 
 #PLEASE h1 {
@@ -224,9 +253,11 @@ span {
     padding-bottom: 80px;
 }
 
-.container {
-    width: 100%;
-}
+
+/*第五部分 PLEASE SHARE IT! 結束*/
+
+
+/*第六部分 BEAUTIFUL MOBILE WEBSITES 開始*/
 
 #BEAUTIFUL-row2 {
     background-image: url(http://unsplash.it/1000?image=816);
@@ -252,6 +283,12 @@ span {
     left: 230px;
 }
 
+
+/*第六部分 BEAUTIFUL MOBILE WEBSITES 結束*/
+
+
+/*第七部分 BOOST YOUR RANKING 4格插畫 開始*/
+
 .row-BOOSTYOUR-4 {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -262,6 +299,12 @@ span {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+
+/*第七部分 BOOST YOUR RANKING 4格插畫 結束*/
+
+
+/*第八部分 IMAGE/CONTENT SLIDER 4格照片開始*/
 
 .IMAGE1 {
     padding: 15px;
@@ -280,6 +323,12 @@ span {
     letter-spacing: 1px;
 }
 
+
+/*第八部分 IMAGE/CONTENT SLIDER 4格照片結束*/
+
+
+/*<!--第九部分 GOOGLE MAPS 4格照片開始-->*/
+
 .IMAGE2 {
     padding: 15px;
 }
@@ -296,3 +345,6 @@ span {
     word-spacing: 1px;
     letter-spacing: 1px;
 }
+
+
+/*<!--第九部分 GOOGLE MAPS 4格照片結束-->*/
