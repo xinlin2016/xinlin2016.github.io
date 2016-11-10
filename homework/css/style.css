@@ -53,13 +53,18 @@ section {
     width: 100%;
 }
 
+.thumbnail {
+    border: none;
+}
+
 
 /*
 大型看板開始(含導覽列)
 */
 
 header {
-    background-image: url(http://unsplash.it/1000?image=668);
+    /*    background-image: url(http://unsplash.it/1000?image=668);*/
+    background-color: darkgrey;
     background-size: cover;
     height: 100vh;
     color: white;
@@ -348,3 +353,187 @@ ul .btn {
 
 
 /*<!--第九部分 GOOGLE MAPS 4格照片結束-->*/
+
+
+/*<!--第十部分 WHAT EXPERTS SAY 個人心得開始-->*/
+
+.WHATEXPERTS {
+    background-color: bisque;
+    height: 800px;
+}
+
+.WHATEXPERTS h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.WHATEXPERTS img {
+    border-radius: 100%;
+    width: 100px;
+}
+
+.WHATEXPERTS .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WHATEXPERTS .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#t1 .thumbnail>img {
+    position: absolute;
+    bottom: -20px;
+    left: 38%;
+}
+
+#t1 .thumbnail {
+    height: 350px;
+}
+
+#t1 .thumbnail p {
+    font-family: "Niconne";
+    text-align: center;
+    font-size: 25px;
+    padding: 23px;
+}
+
+#t1 .thumbnail h4 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: 36%;
+}
+
+#t2 .thumbnail>img {
+    position: absolute;
+    bottom: -20px;
+    left: 38%;
+}
+
+#t2 .thumbnail {
+    height: 300px;
+}
+
+#t2 .thumbnail p {
+    font-family: "Niconne";
+    text-align: center;
+    font-size: 25px;
+    padding: 23px;
+}
+
+#t2 .thumbnail h4 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: 32%;
+}
+
+#t3 .thumbnail>img {
+    position: absolute;
+    bottom: -20px;
+    left: 38%;
+}
+
+#t3 .thumbnail {
+    height: 300px;
+}
+
+#t3 .thumbnail p {
+    font-family: "Niconne";
+    text-align: center;
+    font-size: 25px;
+    padding: 23px;
+}
+
+#t3 .thumbnail h4 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: -50px;
+    left: 32%;
+}
+
+
+/*<!--第十部分 WHAT EXPERTS SAY 個人心得結束-->*/
+
+
+/*<!--第十一部分 WHAT EXPERTS SAY 9格文字開始-->*/
+
+.WHAT-OUR-FANTASTIC {
+    height: 700px;
+}
+
+.WHAT-OUR-FANTASTIC h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.WHAT-OUR-FANTASTIC .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WHAT-OUR-FANTASTIC .thumbnail {
+    font-family: "Niconne";
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #efefef;
+    color: dimgray;
+    font-size: 25px;
+    padding: 23px;
+}
+
+.WHAT-OUR-FANTASTIC h4 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+/*<!--第十一部分 WHAT EXPERTS SAY 9格文字結束-->*/
+
+
+/*<!--第十二部分 FREE DOWNLOAD 開始-->*/
+
+#FREE-DOWNLOAD {
+    height: 400px;
+    background-color: #efefef;
+}
+
+#FREE-DOWNLOAD h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#FREE-DOWNLOAD p {
+    font-family: "Monda";
+    text-align: center;
+    font-size: 15px;
+}
+
+#FREE-DOWNLOAD-btn {
+    margin-left: 0px auto;
+    margin-right: 0px auto;
+}
+
+
+/*<!--第十二部分 FREE DOWNLOAD 結束-->*/
